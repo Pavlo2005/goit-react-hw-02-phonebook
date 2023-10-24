@@ -13,7 +13,7 @@ export class App extends Component {
     ],
     filter: '',
   }
-
+  //  ++
   addPhone = newPhone => {
     if (this.state.contacts.find(contact => contact.name === newPhone.name))
       alert(`${newPhone.name} is Olredy in contacts`)
