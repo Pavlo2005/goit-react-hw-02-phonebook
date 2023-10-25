@@ -34,7 +34,7 @@ export const PhoneForm = ({ onAddPhone }) => {
                         <ErrMessage name="name" component="div" />
                     </label>
                     <label>
-                        Time
+                        Number
                         <Field type="number" name="number" />
                         <ErrMessage name="number" component="div" />
                     </label>
